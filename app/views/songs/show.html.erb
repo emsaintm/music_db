@@ -2,13 +2,14 @@
 
 <p>
   <strong>Name:</strong>
-  <%= @artist.song.name %>
+  <%= @song.name %>
 </p>
+
 
 
 <p>
   <strong>Artist:</strong>
-  <td><%= artist.song.try(:name) %></td>
+  <%= @song.artist.try(:name) %>
 </p>
 
 

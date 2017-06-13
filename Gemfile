@@ -40,6 +40,9 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'annotate'
+gem 'awesome_print'
+
 
 
 group :development, :test do
