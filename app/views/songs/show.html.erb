@@ -2,13 +2,19 @@
 
 <p>
   <strong>Name:</strong>
-  <%= @song.name %>
+  <%= @artist.song.name %>
 </p>
+
 
 <p>
   <strong>Artist:</strong>
-  <td><%= artist.genre.try(:name) %></td>
+  <td><%= artist.song.try(:name) %></td>
 </p>
+
+
+
+
+
 
 <%= link_to 'Edit', edit_song_path(@song) %> |
 <%= link_to 'Back', songs_path %>
