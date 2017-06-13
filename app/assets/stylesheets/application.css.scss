@@ -17,3 +17,12 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+
+body { 
+    background-image: url("https://mightydeals.s3.amazonaws.com/images/65-gorgeous-marble-paper-textures-only-9/marble-paper-textures-high-resolution.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+};
